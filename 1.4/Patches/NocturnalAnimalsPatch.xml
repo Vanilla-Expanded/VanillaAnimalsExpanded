@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Boombat -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AEXP_Boombat"]</xpath>
+		<value>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Crepuscular</bodyClock>
+			</li>
+		</value>
+	</Operation>
+	<!-- Red Panda -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AEXP_RedPanda"]</xpath>
+		<value>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</value>
+	</Operation>
+	<!-- Badger -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AEXP_Badger"]</xpath>
+		<value>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</value>
+	</Operation>
+	<!-- Lemur -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AEXP_Lemur"]</xpath>
+		<value>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</value>
+	</Operation>
+	<!-- Tapir -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AEXP_Tapir"]</xpath>
+		<value>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Crepuscular</bodyClock>
+			</li>
+		</value>
+	</Operation>
+	<!-- Anaconda -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AEXP_Anaconda"]</xpath>
+		<value>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</value>
+	</Operation>
+</Patch>

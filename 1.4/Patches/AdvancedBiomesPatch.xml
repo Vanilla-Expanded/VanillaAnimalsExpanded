@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Advanced Biomes</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Boombat"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.05</PoisonForest>
+						<Savanna>0.1</Savanna>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Kangaroo"]/race/wildBiomes</xpath>
+					<value>
+						<Savanna>0.4</Savanna>
+						<Wetland>0.01</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Koala"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.05</PoisonForest>
+						<Savanna>0.01</Savanna>
+						<Wetland>0.01</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Platypus"]/race/wildBiomes</xpath>
+					<value>
+						<Wetland>0.5</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Otter"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.05</PoisonForest>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_ArcticCoyote"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_BlackBear"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_RedPanda"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.6</PoisonForest>
+						<Wetland>0.05</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Badger"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.2</PoisonForest>
+						<Wetland>0.05</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_WildGoose"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.5</PoisonForest>
+						<Wetland>0.1</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Beaver"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.2</PoisonForest>
+						<Wetland>0.04</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Hedgehog"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>1</PoisonForest>
+						<Wetland>0.2</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Gorilla"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+						<Wetland>0.1</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Jaguar"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.05</PoisonForest>
+						<Wetland>0.1</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Lemur"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.2</PoisonForest>
+						<Wetland>0.1</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Mandrill"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.07</PoisonForest>
+						<Wetland>0.1</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Tapir"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.2</PoisonForest>
+						<Wetland>0.15</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Tiger"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.07</PoisonForest>
+						<Wetland>0.07</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Alligator"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+						<Wetland>0.1</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Anaconda"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+						<Wetland>0.07</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_IndianElephant"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.2</PoisonForest>
+						<Wetland>0.1</Wetland>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Muskox"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Moose"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_MegaWolverine"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AEXP_Porcupine"]/race/wildBiomes</xpath>
+					<value>
+						<PoisonForest>0.01</PoisonForest>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>AEXP_BeaverDam</defName>
+		<label>beaver dam</label>
+		<description>Beaver dams or beaver impoundments are dams built by beavers to provide ponds as protection against predators such as coyotes, wolves, and bears, and to provide easy access to food during winter.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/BeaverDam</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<rotatable>false</rotatable>
+		<costList>
+			<WoodLog>100</WoodLog>
+		</costList>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>2.0</Flammability>
+			<MarketValue>50</MarketValue>
+			<WorkToBuild>2000</WorkToBuild>
+		</statBases>
+		<fillPercent>0.5</fillPercent>
+		<destroyable>true</destroyable>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<selectable>true</selectable>
+		<size>(1,1)</size>
+
+		<blockPlants>true</blockPlants>
+
+	</ThingDef>
+
+	
+
+
+
+
+
+</Defs>
