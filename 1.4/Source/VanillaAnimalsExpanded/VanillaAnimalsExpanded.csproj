@@ -302,7 +302,7 @@
     <Compile Include="HarmonyPatches\HarmonyPatches.cs" />
     <Compile Include="ThingDefExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VAEShrubland.cs" />
+    <Compile Include="HarmonyPatches\HarmonyInstance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
