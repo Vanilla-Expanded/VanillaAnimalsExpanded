@@ -18,7 +18,7 @@
 			<li>
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -39,7 +39,7 @@
 			<li>
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.003</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -59,7 +59,7 @@
 			<li>
 				<hediff>ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.001</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>

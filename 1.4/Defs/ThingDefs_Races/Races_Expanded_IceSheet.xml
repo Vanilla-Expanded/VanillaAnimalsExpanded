@@ -338,6 +338,7 @@
 			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
 			<ComfyTemperatureMax>10</ComfyTemperatureMax>
 			<FilthRate>8</FilthRate>
+			<MeatAmount>200</MeatAmount>
 		</statBases>
 		<tools>
 			<li>

@@ -172,6 +172,7 @@
 			<MarketValue>650</MarketValue>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<FilthRate>16</FilthRate>
+			<MeatAmount>350</MeatAmount>
 		</statBases>
 		<tools>
 			<li>
@@ -228,15 +229,7 @@
 				<AridShrubland>1</AridShrubland>
 				<Desert>0.2</Desert>
 			</wildBiomes>
-			<litterSizeCurve>
-				<points>
-					<li>(0.5, 0)</li>
-					<li>(1, 1)</li>
-					<li>(2, 1.7)</li>
-					<li>(2.5, 0.7)</li>
-					<li>(3, 0)</li>
-				</points>
-			</litterSizeCurve>
+			
 			<lifeExpectancy>24</lifeExpectancy>
 			<lifeStageAges>
 				<li>

@@ -66,6 +66,43 @@
 
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/BiomeDef[defName="Desert"]/allowedPackAnimals</xpath>
+				<value>
+
+					<li>AEXP_Camel</li>
+				
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/allowedPackAnimals</xpath>
+				<value>
+
+					<li>AEXP_Camel</li>
+				
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/carriers</xpath>
+				<value>
+
+					<AEXP_Camel>10</AEXP_Camel>
+					
+
+				</value>
+			</li>
+			 <li Class="PatchOperationAdd"> 
+				<xpath>/Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[kindDef="Trader"]/carriers</xpath>
+				<value>
+
+					<AEXP_Camel>10</AEXP_Camel>
+
+				</value>
+			</li>
+
 
 
 

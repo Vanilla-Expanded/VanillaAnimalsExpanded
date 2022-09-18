@@ -601,9 +601,7 @@
 			<li>AnimalUncommon</li>
 		</tradeTags>
 	</ThingDef>
-	<ToolCapacityDef>
-		<defName>AEXP_GilaVenomousBite</defName>
-	</ToolCapacityDef>
+	
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_GilaMonster</defName>
 		<label>gila monster</label>

@@ -74,15 +74,7 @@
 
 			</wildBiomes>
 			<gestationPeriodDays>15</gestationPeriodDays>
-			<litterSizeCurve>
-				<points>
-					<li>(0.5, 0)</li>
-					<li>(1, 1)</li>
-					<li>(2, 1.7)</li>
-					<li>(2.5, 0.7)</li>
-					<li>(3, 0)</li>
-				</points>
-			</litterSizeCurve>
+			
 			<lifeExpectancy>35</lifeExpectancy>
 			<lifeStageAges>
 				<li>
@@ -612,7 +604,7 @@
 			<leatherDef>Leather_Pig</leatherDef>
 			<wildness>0.65</wildness>
 			<roamMtbDays>3</roamMtbDays>
-			<trainability>Advanced</trainability>
+			<trainability>None</trainability>
 			<useMeatFrom>Pig</useMeatFrom>
 			<gestationPeriodDays>5.661</gestationPeriodDays>
 			<litterSizeCurve>

@@ -84,6 +84,10 @@
 			<lifeExpectancy>45</lifeExpectancy>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<wildBiomes>
+				<Desert>0.2</Desert>
+				<ExtremeDesert>0.7</ExtremeDesert>
+			</wildBiomes>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

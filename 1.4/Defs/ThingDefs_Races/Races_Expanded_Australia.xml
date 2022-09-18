@@ -161,7 +161,7 @@
 		<label>kangaroo</label>
 		<description>Kangaroo is a large, human-sized marsupial with strong legs and powerful arms. It's favoured by tribal hunters due to its tender meat and heat resistant leather. Kangaroos make for powerful adversaries in melee combat, and can be trained easily to become animal super-soldiers.</description>
 		<statBases>
-			<MoveSpeed>5</MoveSpeed>
+			<MoveSpeed>3</MoveSpeed>
 			<MarketValue>250</MarketValue>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<FilthRate>4</FilthRate>
@@ -216,8 +216,18 @@
 			<wildness>0.6</wildness>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<lifeExpectancy>8</lifeExpectancy>
+			<trainability>Intermediate</trainability>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
 			<wildBiomes>
-				<BorealForest>0.05</BorealForest>
+				
 				<TemperateForest>0.05</TemperateForest>
 				<AridShrubland>0.25</AridShrubland>
 				<Desert>0.25</Desert>
@@ -359,19 +369,12 @@
 			<nuzzleMtbHours>48</nuzzleMtbHours>
 			<trainability>None</trainability>
 			<gestationPeriodDays>6.66</gestationPeriodDays>
-			<litterSizeCurve>
-				<points>
-					<li>(0.5, 0)</li>
-					<li>(1, 1)</li>
-					<li>(2, 1)</li>
-					<li>(2.5, 0)</li>
-				</points>
-			</litterSizeCurve>
+			
 			<wildBiomes>
 				<TemperateSwamp>0.05</TemperateSwamp>
 				<TropicalRainforest>0.05</TropicalRainforest>
 				<TropicalSwamp>0.05</TropicalSwamp>
-				<BorealForest>0.15</BorealForest>
+				
 				<TemperateForest>0.15</TemperateForest>
 				<AridShrubland>0.25</AridShrubland>
 				<Desert>0.05</Desert>
@@ -526,7 +529,7 @@
 				<TemperateSwamp>0.5</TemperateSwamp>
 				<TropicalRainforest>0.05</TropicalRainforest>
 				<TropicalSwamp>0.15</TropicalSwamp>
-				<BorealForest>0.05</BorealForest>
+				
 				<TemperateForest>0.05</TemperateForest>
 			</wildBiomes>
 			<lifeExpectancy>17</lifeExpectancy>
