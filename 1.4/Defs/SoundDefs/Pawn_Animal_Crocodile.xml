@@ -8,7 +8,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Crocodile/Pawn_Crocodile_Call</clipPath>
 	</li>
       </grains>      
@@ -35,7 +35,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Crocodile/Pawn_Crocodile_Angry</clipPath>
 	</li>
       </grains>      
@@ -63,7 +63,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Crocodile/Pawn_Crocodile_Angry</clipPath>
 	</li>
       </grains>      
@@ -90,7 +90,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Crocodile/Pawn_Crocodile_Call</clipPath>
 	</li>
       </grains>      

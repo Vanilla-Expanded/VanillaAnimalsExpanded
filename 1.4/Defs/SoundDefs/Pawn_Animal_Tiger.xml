@@ -9,8 +9,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Angry</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Tiger/Pawn_Tiger_Angry</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -37,8 +37,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Wounded</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Tiger/Pawn_Tiger_Wounded</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -66,8 +66,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Death</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Tiger/Pawn_Tiger_Death</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -94,8 +94,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Call</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Tiger/Pawn_Tiger_Call</clipPath>
           </li>
         </grains>
         <volumeRange>

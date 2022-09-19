@@ -9,8 +9,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Seal/Pawn_Seal_Angry</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Seal/Pawn_Seal_Angry</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -37,8 +37,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Seal/Pawn_Seal_Wounded</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Seal/Pawn_Seal_Wounded</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -66,8 +66,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Seal/Pawn_Seal_Death</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Seal/Pawn_Seal_Death</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -94,8 +94,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Seal/Pawn_Seal_Call</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Seal/Pawn_Seal_Call</clipPath>
           </li>
         </grains>
         <volumeRange>

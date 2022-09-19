@@ -9,8 +9,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Penguin/Pawn_Penguin_Angry</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Penguin/Pawn_Penguin_Angry</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -37,8 +37,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Penguin/Pawn_Penguin_Wounded</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Penguin/Pawn_Penguin_Wounded</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -66,8 +66,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Penguin/Pawn_Penguin_Death</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Penguin/Pawn_Penguin_Death</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -94,8 +94,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Penguin/Pawn_Penguin_Call</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Penguin/Pawn_Penguin_Call</clipPath>
           </li>
         </grains>
         <volumeRange>

@@ -8,8 +8,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Alligator/Pawn_Alligator_Call</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Alligator/Pawn_Alligator_Call</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -35,8 +35,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Alligator/Pawn_Alligator_Angry</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Alligator/Pawn_Alligator_Angry</clipPath>
           </li>
         </grains>      
         <volumeRange>

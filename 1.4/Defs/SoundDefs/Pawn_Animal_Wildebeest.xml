@@ -8,8 +8,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Wildebeest/Pawn_Wildebeest_Call</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Pawns/Wildebeest/Pawn_Wildebeest_Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -37,8 +37,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Wildebeest/Pawn_Wildebeest_Angry</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Pawns/Wildebeest/Pawn_Wildebeest_Angry</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -65,8 +65,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Wildebeest/Pawn_Wildebeest_Wounded</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Wildebeest/Pawn_Wildebeest_Wounded</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -94,8 +94,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Wildebeest/Pawn_Wildebeest_Death</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/Wildebeest/Pawn_Wildebeest_Death</clipPath>
           </li>
         </grains>      
         <volumeRange>

@@ -8,7 +8,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Hippopotamus/Pawn_Hippopotamus_Call</clipPath>
 	</li>
       </grains>      
@@ -35,7 +35,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Hippopotamus/Pawn_Hippopotamus_Angry</clipPath>
 	</li>
       </grains>      
@@ -63,7 +63,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Hippopotamus/Pawn_Hippopotamus_Death</clipPath>
 	</li>
       </grains>      
@@ -90,7 +90,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Hippopotamus/Pawn_Hippopotamus_Wounded</clipPath>
 	</li>
       </grains>      

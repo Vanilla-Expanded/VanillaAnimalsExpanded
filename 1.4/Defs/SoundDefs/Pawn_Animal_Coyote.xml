@@ -8,7 +8,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Coyote/Pawn_Coyote_Call</clipPath>
 	</li>
       </grains>      
@@ -35,7 +35,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Coyote/Pawn_Coyote_Angry</clipPath>
 	</li>
       </grains>      
@@ -56,32 +56,7 @@
   </subSounds>
 </SoundDef>
 
-<SoundDef>
-  <defName>AEXP_Pawn_Coyote_Death</defName>  
-  <eventNames />
-  <context>MapOnly</context>
-  <subSounds>
-    <li>
-      <grains>
-	<li Class="AudioGrain_Folder">
-	  <clipPath>Pawns/Coyote/Pawn_Coyote_Death</clipPath>
-	</li>
-      </grains>      
-      <volumeRange>
-	<min>28.04878</min>        
-	<max>28.04878</max>
-      </volumeRange>      
-      <pitchRange>
-	<min>1.2</min>        
-	<max>1.2</max>
-      </pitchRange>      
-      <distRange>
-	<min>0</min>        
-	<max>70</max>
-      </distRange>
-    </li>
-  </subSounds>
-</SoundDef>
+
 
 <SoundDef>
   <defName>AEXP_Pawn_Coyote_Wounded</defName>  
@@ -90,7 +65,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Coyote/Pawn_Coyote_Wounded</clipPath>
 	</li>
       </grains>      

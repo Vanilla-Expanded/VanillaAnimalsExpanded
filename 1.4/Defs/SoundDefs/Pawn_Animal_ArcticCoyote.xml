@@ -9,8 +9,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Angry</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/ArcticCoyote/Pawn_Coyote_Angry</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -37,8 +37,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Wounded</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/ArcticCoyote/Pawn_Coyote_Wounded</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -68,8 +68,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/ArcticCoyote/Pawn_Coyote_Call</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawns/ArcticCoyote/Pawn_Coyote_Call</clipPath>
           </li>
         </grains>
         <volumeRange>

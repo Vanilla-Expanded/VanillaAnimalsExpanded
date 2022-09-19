@@ -8,7 +8,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Zebra/Pawn_Zebra_Call</clipPath>
 	</li>
       </grains>      
@@ -35,7 +35,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Zebra/Pawn_Zebra_Angry</clipPath>
 	</li>
       </grains>      
@@ -63,7 +63,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Zebra/Pawn_Zebra_Death</clipPath>
 	</li>
       </grains>      
@@ -90,7 +90,7 @@
   <subSounds>
     <li>
       <grains>
-	<li Class="AudioGrain_Folder">
+	<li Class="AudioGrain_Clip">
 	  <clipPath>Pawns/Zebra/Pawn_Zebra_Wounded</clipPath>
 	</li>
       </grains>      
