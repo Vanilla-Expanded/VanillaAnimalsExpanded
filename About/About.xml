@@ -25,5 +25,12 @@
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
 	<packageId>VanillaExpanded.VanillaAnimalsExpanded</packageId>
-	<description></description>
+	<description>Vanilla Animals Expanded is a large mod that contains almost all previous Vanilla Animals Expanded modules, this time merged into one big mod. Fear not, however - last thing we want is to bloat your game: you can now disable individual animals in mod options! You can only enable the animals that appear in your biome if you want.
+
+The reason we merged all the animal mods is because they are finished - the only new animals we have planned fit into standalone packs. We have already covered all the biomes, so it’s only proper we clean it up and make it into one big mod.
+
+No, we have no plans to merge any other mods together.
+
+This mod adds dozens of new animals that fit RimWorld aesthethic, from house cats and rottweilers to anacondas and indian elephants, it really breathes a lot of life into the game and makes every biome feel very, very unique.
+</description>
 </ModMetaData>
