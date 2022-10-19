@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VanillaAnimalsExpanded.RiverNeedingAnimalDef>
+		<defName>AEXP_RiverNeedingAnimals</defName>
+		<riverNeedingAnimals>
+			<li>AEXP_Crocodile</li>
+			<li>AEXP_Hippopotamus</li>
+			<li>AEXP_Beaver</li>
+			
+		</riverNeedingAnimals>
+	</VanillaAnimalsExpanded.RiverNeedingAnimalDef>
+</Defs>

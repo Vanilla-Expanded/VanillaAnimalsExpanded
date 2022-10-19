@@ -407,11 +407,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 		</tradeTags>
-		<modExtensions>
-			<li Class="VanillaAnimalsExpanded.AnimalSpawningExtension">
-				<requiresRiver>true</requiresRiver>
-			</li>
-		</modExtensions>
+		
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Hippopotamus</defName>
@@ -927,11 +923,7 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 		</tradeTags>
-		<modExtensions>
-			<li Class="VanillaAnimalsExpanded.AnimalSpawningExtension">
-				<requiresRiver>true</requiresRiver>
-			</li>
-		</modExtensions>
+		
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Crocodile</defName>
