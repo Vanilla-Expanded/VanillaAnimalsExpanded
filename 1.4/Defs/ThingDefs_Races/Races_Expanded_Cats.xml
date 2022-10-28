@@ -933,7 +933,7 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.42</baseBodySize>
+			<baseBodySize>0.66</baseBodySize>
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
@@ -941,7 +941,7 @@
 			<wildness>0</wildness>
 			<useMeatFrom>Cat</useMeatFrom>
 			<petness>1</petness>
-			<trainability>None</trainability>
+			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
@@ -1112,7 +1112,7 @@
 			<leatherDef>Leather_Light</leatherDef>
 			<wildness>0</wildness>
 			<petness>1</petness>
-			<trainability>Advanced</trainability>
+			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
