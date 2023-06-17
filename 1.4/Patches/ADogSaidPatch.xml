@@ -934,6 +934,16 @@
 						<li>AEXP_MegaWolverine</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<!-- "Inserting animal defNames into InstallPegLegAnimal surgery <recipeUsers>" -->
+					<xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticArmAnimal" or defName ="InstallBionicArmAnimal"]/recipeUsers</xpath>
+					<value>
+						<li>AEXP_Lemur</li>
+						<li>AEXP_Gorilla</li>
+						<li>AEXP_Mandrill</li>
+					
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
