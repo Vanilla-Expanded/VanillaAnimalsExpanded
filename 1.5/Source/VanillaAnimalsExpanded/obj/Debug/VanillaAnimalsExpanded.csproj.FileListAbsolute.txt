@@ -1,0 +1,12 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.4\Assemblies\VanillaAnimalsExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.4\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.4\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.4\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.5\Assemblies\VanillaAnimalsExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.5\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.5\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.5\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.5\Assemblies\VanillaAnimalsExpanded.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.5\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.csproj.AssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.5\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaAnimalsExpanded\1.5\Source\VanillaAnimalsExpanded\obj\Debug\VanillaAnimalsExpanded.dll

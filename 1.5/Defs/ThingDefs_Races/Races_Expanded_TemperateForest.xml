@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================= Red Panda =============================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_RedPanda</defName>
+		<label>red panda</label>
+		<description>The red panda is a small mammal, slightly larger than a domestic cat, with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees. It is a solitary animal, mainly active from dusk to dawn, though they can be quite affectionate if properly tamed.</description>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<MarketValue>250</MarketValue>
+			<ComfyTemperatureMin>5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
+			<FilthRate>4</FilthRate>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>3.6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>3.6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<petness>0.1</petness>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>0.275</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.45</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<trainability>Intermediate</trainability>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>18</nuzzleMtbHours>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+					<soundDeath>Pawn_Boomrat_Death</soundDeath>
+					<soundCall>Pawn_Boomrat_Call</soundCall>
+					<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<TemperateForest>0.6</TemperateForest>
+				<BorealForest>0.1</BorealForest>
+				<TropicalRainforest>0.05</TropicalRainforest>
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_RedPanda</defName>
+		<label>red panda</label>
+		<race>AEXP_RedPanda</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.2</ecoSystemWeight>
+
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_RedPanda/RedPanda</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_RedPanda/Dessicated_RedPanda</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_RedPanda/RedPanda</texPath>
+					<drawSize>1.15</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.2, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_RedPanda/Dessicated_RedPanda</texPath>
+					<drawSize>1.15</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_RedPanda/RedPanda</texPath>
+					<drawSize>1.25</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_RedPanda/Dessicated_RedPanda</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Badger =============================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Badger</defName>
+		<label>badger</label>
+		<description>Badgers are small nocturnal mammals with flat, wedge-shaped bodies, broad feet with long claws and coarse hair. Badgers have strong limbs and sharp claws that help them dig burrows and find food underground. They are omnivorous, with a diet consisting largely of earthworms, insects, grubs and small animals such as hedgehogs and rabbits.</description>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<MarketValue>275</MarketValue>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<FilthRate>8</FilthRate>
+		</statBases>
+		<tools>
+			<li>
+				<label>left paw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5.5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right paw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5.5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.3</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPaws</body>
+			<petness>0.025</petness>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>0.4</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>0.3</maxPreyBodySize>
+			<leatherDef>Leather_Light</leatherDef>
+			<trainability>Intermediate</trainability>
+			<wildness>0.65</wildness>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<gestationPeriodDays>8.5</gestationPeriodDays>
+			<lifeExpectancy>15</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+					<soundDeath>Pawn_Boomrat_Death</soundDeath>
+					<soundCall>Pawn_Boomrat_Call</soundCall>
+					<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<TemperateForest>0.2</TemperateForest>
+				<BorealForest>0.05</BorealForest>
+
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Badger</defName>
+		<label>badger</label>
+		<race>AEXP_Badger</race>
+		<combatPower>65</combatPower>
+		<ecoSystemWeight>0.30</ecoSystemWeight>
+
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Badger/Badger</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Badger/Dessicated_Badger</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+
+
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Badger/Badger</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.2, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Badger/Dessicated_Badger</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Badger/Badger</texPath>
+					<drawSize>1.6</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Badger/Dessicated_Badger</texPath>
+					<drawSize>1.6</drawSize>
+				</dessicatedBodyGraphicData>
+
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+	<!-- ======================= Wild Goose =============================== -->
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_WildGoose</defName>
+		<label>wild goose</label>
+		<description>A non-domesticated grey goose. Compared to their domesticated brethren, which have been selected over thousands of years for larger size, wild geese don't lay as many eggs, and they are renowned for their aggressive temperament. Peace was never an option.</description>
+		<statBases>
+			<MoveSpeed>2.75</MoveSpeed>
+			<MarketValue>75</MarketValue>
+			<LeatherAmount>36</LeatherAmount>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<FilthRate>6</FilthRate>
+		</statBases>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>beak</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>6.6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>AEXP_EggWildGooseUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>AEXP_EggWildGooseFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>3</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>Bird</body>
+			<baseHungerRate>0.35</baseHungerRate>
+			<baseBodySize>0.30</baseBodySize>
+			<baseHealthScale>0.80</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Bird</leatherDef>
+			<trainability>None</trainability>
+			<wildness>0.7</wildness>
+			<roamMtbDays>7</roamMtbDays>
+			<manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+			<mateMtbHours>8</mateMtbHours>
+			<lifeExpectancy>7</lifeExpectancy>
+			<useMeatFrom>Cassowary</useMeatFrom>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_Goose_Wounded</soundWounded>
+					<soundDeath>Pawn_Goose_Death</soundDeath>
+					<soundCall>Pawn_Goose_Call</soundCall>
+					<soundAngry>Pawn_Goose_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<TemperateForest>0.5</TemperateForest>
+				<BorealForest>0.25</BorealForest>
+				<TemperateSwamp>0.1</TemperateSwamp>
+
+
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_WildGoose</defName>
+		<label>wild goose</label>
+		<labelMale>wild gander</labelMale>
+		<labelPlural>wild geese</labelPlural>
+		<race>AEXP_WildGoose</race>
+		<combatPower>40</combatPower>
+		<ecoSystemWeight>0.25</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>gosling</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_WildGoose/WildGoose</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_WildGoose/Dessicated_WildGoose</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_WildGoose/WildGoose</texPath>
+					<drawSize>1.23</drawSize>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_WildGoose/Dessicated_WildGoose</texPath>
+					<drawSize>1.23</drawSize>
+				</dessicatedBodyGraphicData>
+
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_WildGoose/WildGoose</texPath>
+					<drawSize>1.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_WildGoose/Dessicated_WildGoose</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+	<!-- ======================= Beaver =============================== -->
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Beaver</defName>
+		<label>beaver</label>
+		<description>A large semiaquatic rodent with a flat, paddle-shaped tail and webbed hind feet. Beavers are renowned for their innate construction skills, building their homes, or "lodges", out of sticks, twigs, rocks, and mud in lakes, streams, and tidal river deltas. Beavers are well known for building dams across streams and constructing their lodges in the artificial ponds which form.</description>
+		<statBases>
+			<MoveSpeed>3.7</MoveSpeed>
+			<MarketValue>120</MarketValue>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			 <FilthRate>8</FilthRate>
+		</statBases>
+
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>5.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="AnimalBehaviours.CompProperties_BuildPeriodically">
+				<defOfBuilding>AEXP_BeaverDam</defOfBuilding>
+				<ticksToBuild>2000</ticksToBuild>
+				<maxBuildingsPerMap>10</maxBuildingsPerMap>
+				<acceptedTerrains>
+					<li>MarshyTerrain</li>
+					<li>WaterMovingChestDeep</li>
+					<li>WaterShallow</li>
+					<li>WaterOceanShallow</li>
+					<li>WaterMovingShallow</li>
+					<li>Marsh</li>
+					<li>GU_RedWaterShallow</li>
+				</acceptedTerrains>
+			</li>
+		</comps>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>0.3</baseBodySize>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseHealthScale>0.5</baseHealthScale>
+			<foodType>DendrovoreAnimal,VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<useMeatFrom>Alphabeaver</useMeatFrom>
+			<wildness>0.68</wildness>
+			<gestationPeriodDays>8.5</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.02</manhunterOnDamageChance>
+			<willNeverEat>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+			</willNeverEat>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>24</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.35</minAge>
+					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
+					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
+					<soundCall>Pawn_Alphabeaver_Call</soundCall>
+					<soundAngry>Pawn_Alphabeaver_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<TemperateForest>0.2</TemperateForest>
+				<BorealForest>0.07</BorealForest>
+				<TemperateSwamp>0.04</TemperateSwamp>
+
+
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+		
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Beaver</defName>
+		<label>beaver</label>
+		<race>AEXP_Beaver</race>
+		<combatPower>25</combatPower>
+		<ecoSystemWeight>0.25</ecoSystemWeight>
+		<wildGroupSize>2~6</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_AmericanBeaver/AmericanBeaver</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_AmericanBeaver/Dessicated_AmericanBeaver</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_AmericanBeaver/AmericanBeaver</texPath>
+					<drawSize>1.25</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_AmericanBeaver/Dessicated_AmericanBeaver</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_AmericanBeaver/AmericanBeaver</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.35, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.08)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_AmericanBeaver/Dessicated_AmericanBeaver</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- ======================= Hedgehog =============================== -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Hedgehog</defName>
+		<label>hedgehog</label>
+		<description>Hedgehogs are diminutive mammals with cone-shaped faces, short legs and bodies that are covered with porcupine-like quills. When in danger, the hedgehog rolls into a ball so that the quills cover the entire area of their exposed body and protects the animal from predators.</description>
+		<statBases>
+			<MoveSpeed>1</MoveSpeed>
+			<MarketValue>25</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPaws</body>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			<baseHungerRate>0.05</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.6</wildness>
+			<petness>0.05</petness>
+			<nuzzleMtbHours>120</nuzzleMtbHours>
+			<trainability>None</trainability>
+			<gestationPeriodDays>5.661</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1)</li>
+					<li>(2.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<wildBiomes>
+				<TemperateForest>1</TemperateForest>
+				<BorealForest>0.5</BorealForest>
+				<TemperateSwamp>0.2</TemperateSwamp>
+			</wildBiomes>
+			<lifeExpectancy>8</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.11</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.2222</minAge>
+					<soundWounded>Pawn_Rodent_Wounded</soundWounded>
+					<soundDeath>Pawn_Rodent_Death</soundDeath>
+					<soundCall>Pawn_Rodent_Call</soundCall>
+					<soundAngry>Pawn_Rodent_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AEXP_Hedgehog</defName>
+		<label>hedgehog</label>
+		<race>AEXP_Hedgehog</race>
+		<combatPower>10</combatPower>
+		<ecoSystemWeight>0.1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Hedgehog/Hedgehog</texPath>					
+					<drawSize>0.4</drawSize>					
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Hedgehog/Dessicated_Hedgehog</texPath>
+					<drawSize>0.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Hedgehog/Hedgehog</texPath>					
+
+					<drawSize>0.6</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Hedgehog/Dessicated_Hedgehog</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Hedgehog/Hedgehog</texPath>					
+
+					<drawSize>0.75</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AEXP_Hedgehog/Dessicated_Hedgehog</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

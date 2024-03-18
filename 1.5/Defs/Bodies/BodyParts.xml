@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyPartDef>
+		<defName>AEXP_ForeFlipper</defName>
+		<label>fore-flipper</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>AEXP_HindFlippers</defName>
+		<label>hind-flippers</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>AEXP_Antlers</defName>
+		<label>antlers</label>
+		<hitPoints>20</hitPoints>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+	</BodyPartDef>
+</Defs>
