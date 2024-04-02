@@ -61,7 +61,9 @@
 		</comps>
 		<race>
 			<herdAnimal>true</herdAnimal>
-			<deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
+			<deathAction>
+				<workerClass>DeathActionWorker_SmallExplosion</workerClass>
+			</deathAction>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<body>QuadrupedAnimalWithPaws</body>
 			<baseBodySize>0.4</baseBodySize>
@@ -227,7 +229,6 @@
 				</points>
 			</litterSizeCurve>
 			<wildBiomes>
-				
 				<TemperateForest>0.05</TemperateForest>
 				<AridShrubland>0.25</AridShrubland>
 				<Desert>0.25</Desert>
@@ -369,12 +370,10 @@
 			<nuzzleMtbHours>48</nuzzleMtbHours>
 			<trainability>None</trainability>
 			<gestationPeriodDays>6.66</gestationPeriodDays>
-			
 			<wildBiomes>
 				<TemperateSwamp>0.05</TemperateSwamp>
 				<TropicalRainforest>0.05</TropicalRainforest>
 				<TropicalSwamp>0.05</TropicalSwamp>
-				
 				<TemperateForest>0.15</TemperateForest>
 				<AridShrubland>0.25</AridShrubland>
 				<Desert>0.05</Desert>
@@ -524,12 +523,10 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>AEXP_Leather_Platypus</leatherDef>
 			<wildness>0.85</wildness>
-			
 			<wildBiomes>
 				<TemperateSwamp>0.5</TemperateSwamp>
 				<TropicalRainforest>0.05</TropicalRainforest>
 				<TropicalSwamp>0.15</TropicalSwamp>
-				
 				<TemperateForest>0.05</TemperateForest>
 			</wildBiomes>
 			<lifeExpectancy>17</lifeExpectancy>
