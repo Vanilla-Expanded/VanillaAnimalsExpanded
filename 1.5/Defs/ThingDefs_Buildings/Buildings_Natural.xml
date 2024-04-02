@@ -32,7 +32,7 @@
 		<selectable>true</selectable>
 		<size>(1,1)</size>
 
-		<blockPlants>true</blockPlants>
+		<blocksPlants>true</blocksPlants>
 
 	</ThingDef>
 
