@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- ======================= Wildebeest =============================== -->
+	<ThingDef ParentName="LeatherBase">
+		<defName>AEXP_Leather_Wildebeest</defName>
+		<label>wildebeest pelt</label>
+		<description>A thick but crumbly wildebeest fur and leather. Whilst it provides some degree of damage protection, the overall longevity of the item decreases.</description>
+		<graphicData>
+			<color>(58,58,58)</color>
+		</graphicData>
+		<statBases>
+			<Flammability>1.2</Flammability>
+			<MarketValue>3.2</MarketValue>
+			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(58,58,58)</color>
+			<commonality>0.10</commonality>
+			<statFactors>
+				<MaxHitPoints>0.7</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<!-- ======================= Platypus leather =============================== -->
+	<ThingDef ParentName="LeatherBase">
+		<defName>AEXP_Leather_Platypus</defName>
+		<label>platypus leather</label>
+		<description>Platypus fur was considered a valuable commodity in the days of old Terra, a fact that almost drove the Platypus to extinction. Luckily, the animal was protected and thrived again.</description>
+		<graphicData>
+			<color>(82,65,57)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+			<StuffPower_Armor_Sharp>0.15</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(82,65,57)</color>
+			<commonality>0.005</commonality>
+			<statFactors>
+				<MaxHitPoints>0.9</MaxHitPoints>
+				<Beauty>3</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<!-- ======================= Lion =============================== -->
+	<ThingDef ParentName="LeatherBase">
+		<defName>AEXP_Leather_Lion</defName>
+		<label>lion pelt</label>
+		<description>A strong, luxurious leather of the leader of the animal kingdom. Often sought after by urbworld philanthropists.</description>
+		<graphicData>
+			<color>(185,143,96)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>5.20</MarketValue>
+			<StuffPower_Armor_Sharp>1.00</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(185,143,96)</color>
+			<commonality>0.015</commonality>
+			<statFactors>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Beauty>2.4</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<!-- ======================= Camel =============================== -->
+	<ThingDef ParentName="WoolBase">
+		<defName>WoolCamel</defName>
+		<label>camel wool</label>
+		<description>Camel's wool. It provides good insulation from heat.</description>
+		<graphicData>
+			<color>(211,179,118)</color>
+		</graphicData>
+		<statBases>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(219,214,209)</color>
+			<commonality>0.14</commonality>
+		</stuffProps>
+	</ThingDef>
+	
+	
+</Defs>

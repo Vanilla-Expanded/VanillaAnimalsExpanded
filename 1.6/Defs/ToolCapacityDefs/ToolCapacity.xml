@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<ToolCapacityDef>
+		<defName>AEXP_GilaVenomousBite</defName>
+		<label>Gila venomous bite</label>
+	</ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>AEXP_RattleSnakeVenomousBite</defName>
+		<label>Rattlesnake venomous bite</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>AEXP_MegascorpionVenomousBite</defName>
+		<label>Megascorpion venomous bite</label>
+	</ToolCapacityDef>
+
+</Defs>

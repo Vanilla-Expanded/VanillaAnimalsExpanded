@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Penguin -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AEXP_EggPenguinUnfertilized</defName>
+		<label>penguin egg (unfert.)</label>
+		<description>An unfertilized penguin egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+			<color>(182,205,161)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>19.0</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="EggFertBase">
+		<defName>AEXP_EggPenguinFertilized</defName>
+		<label>penguin egg (fert.)</label>
+		<description>A fertilized penguin egg. If all goes well, it should hatch into a baby penguin. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+			<color>(182,205,161)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>19.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>AEXP_Penguin</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Alligator -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AEXP_EggAlligatorUnfertilized</defName>
+		<label>alligator egg (unfert.)</label>
+		<description>An unfertilized alligator egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<drawSize>1</drawSize>
+			<color>(235,235,235)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>23.0</MarketValue>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="EggFertBase">
+		<defName>AEXP_EggAlligatorFertilized</defName>
+		<label>alligator egg (fert.)</label>
+		<description>A fertilized alligator egg. If all goes well, it should hatch into an alligator. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<drawSize>1</drawSize>
+			<color>(235,235,235)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>23.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>AEXP_Alligator</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

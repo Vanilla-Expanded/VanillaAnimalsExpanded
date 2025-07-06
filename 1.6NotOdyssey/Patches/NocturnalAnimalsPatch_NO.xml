@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!-- Badger -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="AEXP_Badger"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</value>
+	</Operation>
+	
+</Patch>

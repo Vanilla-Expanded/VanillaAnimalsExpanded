@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.AnimalBehaviours.GenericToggleableAnimalDef>
+		<defName>AEXP_ToggleableAnimals_NO</defName>
+		<toggleablePawns>
+			<li>AEXP_Alligator</li>
+			<li>AEXP_Badger</li>
+			<li>AEXP_Gorilla</li>
+			<li>AEXP_Hippopotamus</li>
+			<li>AEXP_Moose</li>
+			<li>AEXP_Muskox</li>
+			<li>AEXP_Otter</li>
+			<li>AEXP_Penguin</li>
+			<li>AEXP_Porcupine</li>
+			<li>AEXP_Seal</li>
+			<li>AEXP_Tiger</li>
+			<li>AEXP_Walrus</li>
+		</toggleablePawns>
+	</VEF.AnimalBehaviours.GenericToggleableAnimalDef>
+</Defs>
