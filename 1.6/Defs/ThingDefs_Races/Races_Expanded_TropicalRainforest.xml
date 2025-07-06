@@ -117,7 +117,7 @@
 		</tools>
 		<race>
 			<body>Monkey</body>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<meatLabel>primate meat</meatLabel>
 			<petness>0.1</petness>
 			<herdAnimal>true</herdAnimal>
@@ -268,6 +268,7 @@
 			<body>Monkey</body>
 			<useMeatFrom>AEXP_Lemur</useMeatFrom>
 			<petness>0.025</petness>
+			<soundEating>Herbivore_Eat</soundEating>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>0.8</baseBodySize>
 			<baseHungerRate>0.25</baseHungerRate>
@@ -435,6 +436,7 @@
 			<roamMtbDays>3</roamMtbDays>
 			<trainability>None</trainability>
 			<useMeatFrom>Pig</useMeatFrom>
+			<soundEating>Herbivore_Eat</soundEating>
 			<gestationPeriodDays>5.661</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>

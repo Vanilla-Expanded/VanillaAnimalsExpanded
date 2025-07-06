@@ -68,7 +68,7 @@
 			<useMeatFrom>Wolf_Timber</useMeatFrom>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
-			
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<nuzzleMtbHours>240</nuzzleMtbHours>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>

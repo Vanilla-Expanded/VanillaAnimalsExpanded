@@ -61,7 +61,7 @@
 			<predator>true</predator>
 			<leatherDef>Leather_Heavy</leatherDef>
 			<gestationPeriodDays>20</gestationPeriodDays>
-			
+			<soundEating>PredatorLarge_Eat</soundEating>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>120</nuzzleMtbHours>
 			<lifeExpectancy>20</lifeExpectancy>

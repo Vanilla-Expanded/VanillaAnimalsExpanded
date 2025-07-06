@@ -56,6 +56,7 @@
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<petness>0.1</petness>
+			<soundEating>Herbivore_Eat</soundEating>
 			<herdAnimal>false</herdAnimal>
 			<baseBodySize>0.275</baseBodySize>
 			<baseHungerRate>0.1</baseHungerRate>
@@ -214,6 +215,7 @@
 			<mateMtbHours>8</mateMtbHours>
 			<lifeExpectancy>7</lifeExpectancy>
 			<useMeatFrom>Cassowary</useMeatFrom>
+			<soundEating>Bird_Eat</soundEating>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
@@ -376,6 +378,7 @@
 			<foodType>DendrovoreAnimal,VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<useMeatFrom>Alphabeaver</useMeatFrom>
+			<soundEating>Herbivore_Eat</soundEating>
 			<gestationPeriodDays>8.5</gestationPeriodDays>
 			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.02</manhunterOnDamageChance>
@@ -525,6 +528,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<petness>0.05</petness>
+			<soundEating>Rodent_Eat</soundEating>
 			<nuzzleMtbHours>120</nuzzleMtbHours>
 			<trainability>None</trainability>
 			<gestationPeriodDays>5.661</gestationPeriodDays>

@@ -65,6 +65,7 @@
 			<useMeatFrom>Cobra</useMeatFrom>
 			<gestationPeriodDays>30</gestationPeriodDays>
 			<lifeExpectancy>10</lifeExpectancy>
+			<soundEating>Reptile_Eat</soundEating>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
 			<lifeStageAges>
@@ -227,6 +228,7 @@
 			<herdAnimal>true</herdAnimal>
 			<body>QuadrupedAnimalWithHoovesTusksAndTrunk</body>
 			<baseHungerRate>1.6</baseHungerRate>
+			<soundEating>Herbivore_Eat</soundEating>
 			<baseBodySize>3.3</baseBodySize>
 			<baseHealthScale>3.0</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>

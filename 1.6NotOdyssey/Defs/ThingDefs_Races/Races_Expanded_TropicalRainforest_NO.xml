@@ -73,6 +73,7 @@
 			</wildBiomes>
 			<gestationPeriodDays>15</gestationPeriodDays>
 			<lifeExpectancy>35</lifeExpectancy>
+			<soundEating>Herbivore_Eat</soundEating>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -246,6 +247,7 @@
 			<wildBiomes>
 				<TropicalRainforest>0.15</TropicalRainforest>
 			</wildBiomes>
+			<soundEating>PredatorLarge_Eat</soundEating>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

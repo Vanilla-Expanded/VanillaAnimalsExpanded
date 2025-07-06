@@ -55,6 +55,7 @@
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<maxPreyBodySize>0.7</maxPreyBodySize>
 			<petness>0.14</petness>
 			<baseBodySize>0.76</baseBodySize>
@@ -225,6 +226,7 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<useMeatFrom>Tortoise</useMeatFrom>
 			<lifeExpectancy>80</lifeExpectancy>
+			 <soundEating>Reptile_Eat</soundEating>
 			<wildBiomes>
 				<AridShrubland>0.2</AridShrubland>
 				<Desert>1</Desert>
@@ -382,6 +384,7 @@
 			<predator>true</predator>
 			<maxPreyBodySize>3.0</maxPreyBodySize>
 			<baseBodySize>1.65</baseBodySize>
+			<soundEating>PredatorLarge_Eat</soundEating>
 			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>1.6</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
@@ -568,6 +571,7 @@
 		<race>
 			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
 			<baseBodySize>0.50</baseBodySize>
+			 <soundEating>Reptile_Eat</soundEating>
 			<baseHealthScale>0.55</baseHealthScale>
 			<baseHungerRate>0.24</baseHungerRate>
 			<useMeatFrom>Iguana</useMeatFrom>

@@ -64,7 +64,7 @@
 			<baseHealthScale>0.7</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<petness>0.2</petness>
 			<nuzzleMtbHours>120</nuzzleMtbHours>
 			<gestationPeriodDays>8.5</gestationPeriodDays>

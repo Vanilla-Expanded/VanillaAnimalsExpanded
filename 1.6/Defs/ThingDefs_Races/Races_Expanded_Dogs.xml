@@ -60,6 +60,7 @@
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.4</baseHealthScale>
 			<meatLabel>dog meat</meatLabel>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Dog</leatherDef>
 			<nameOnTameChance>1</nameOnTameChance>
@@ -225,6 +226,7 @@
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.4</baseHealthScale>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Dog</leatherDef>
 			<nameOnTameChance>1</nameOnTameChance>
@@ -387,6 +389,7 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<petness>1</petness>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<baseBodySize>0.4</baseBodySize>
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.5</baseHealthScale>
@@ -552,6 +555,7 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<petness>1</petness>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<baseBodySize>0.4</baseBodySize>
 			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>0.4</baseHealthScale>
@@ -743,6 +747,7 @@
 			<maxPreyBodySize>2.3</maxPreyBodySize>
 			<petness>0.6</petness>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<baseBodySize>1.0</baseBodySize>
 			<baseHungerRate>0.5</baseHungerRate>
 			<baseHealthScale>1.4</baseHealthScale>
@@ -901,6 +906,7 @@
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Dog</leatherDef>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
@@ -1057,6 +1063,7 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
@@ -1210,6 +1217,7 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
@@ -1375,6 +1383,7 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
@@ -1528,6 +1537,7 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
@@ -1692,6 +1702,7 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>

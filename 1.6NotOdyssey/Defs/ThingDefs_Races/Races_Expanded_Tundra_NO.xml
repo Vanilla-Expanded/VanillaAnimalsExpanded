@@ -78,6 +78,7 @@
 			<roamMtbDays>2</roamMtbDays>
 			<trainability>None</trainability>
 			<packAnimal>true</packAnimal>
+			<soundEating>Herbivore_Eat</soundEating>
 			<lifeExpectancy>18</lifeExpectancy>
 			<lifeStageAges>
 				<li>
@@ -241,6 +242,7 @@
 			<trainability>None</trainability>
 			<gestationPeriodDays>6.66</gestationPeriodDays>
 			<lifeExpectancy>25</lifeExpectancy>
+			<soundEating>Herbivore_Eat</soundEating>
 			<wildBiomes>
 				<BorealForest>0.4</BorealForest>
 				<Tundra>1</Tundra>
@@ -409,6 +411,7 @@
 			<leatherDef>Leather_Light</leatherDef>
 			<trainability>None</trainability>
 			<mateMtbHours>8</mateMtbHours>
+			<soundEating>Rodent_Eat</soundEating>
 			<gestationPeriodDays>5.661</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>

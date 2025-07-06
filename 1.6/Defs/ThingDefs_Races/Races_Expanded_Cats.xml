@@ -77,6 +77,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
@@ -249,6 +250,7 @@
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
 			<baseBodySize>0.32</baseBodySize>
@@ -420,6 +422,7 @@
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
 			<baseBodySize>0.32</baseBodySize>
@@ -590,6 +593,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>1.25</maxPreyBodySize>
@@ -761,6 +765,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
@@ -932,6 +937,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<predator>true</predator>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
 			<baseBodySize>0.66</baseBodySize>
@@ -1103,6 +1109,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
@@ -1274,6 +1281,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<predator>true</predator>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
 			<baseBodySize>0.32</baseBodySize>
@@ -1445,6 +1453,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<predator>true</predator>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
 			<baseBodySize>0.32</baseBodySize>
@@ -1616,6 +1625,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>

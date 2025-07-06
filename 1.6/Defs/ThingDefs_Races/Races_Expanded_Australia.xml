@@ -74,7 +74,7 @@
 			<leatherDef>Leather_Light</leatherDef>
 			<gestationPeriodDays>5.661</gestationPeriodDays>
 			<executionRange>4</executionRange>
-			
+			<soundEating>Rodent_Eat</soundEating>
 			<trainability>None</trainability>
 			<useMeatFrom>Boomrat</useMeatFrom>
 			<lifeExpectancy>9</lifeExpectancy>
@@ -220,7 +220,7 @@
 			<baseHealthScale>1.9</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Heavy</leatherDef>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<lifeExpectancy>8</lifeExpectancy>
 			<trainability>Intermediate</trainability>
@@ -371,7 +371,7 @@
 			<baseHungerRate>0.05</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<petness>0.5</petness>
 			<nuzzleMtbHours>48</nuzzleMtbHours>
 			<trainability>None</trainability>
@@ -534,7 +534,7 @@
 			<baseHungerRate>0.15</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>AEXP_Leather_Platypus</leatherDef>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<wildBiomes>
 				<TemperateSwamp>0.5</TemperateSwamp>
 				<TropicalRainforest>0.05</TropicalRainforest>

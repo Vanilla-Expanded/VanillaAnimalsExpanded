@@ -65,7 +65,7 @@
 			<leatherDef>Leather_Wolf</leatherDef>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
-			
+			 <soundEating>PredatorSmall_Eat</soundEating>
 			<useMeatFrom>Wolf_Timber</useMeatFrom>
 			<nuzzleMtbHours>240</nuzzleMtbHours>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
@@ -229,7 +229,7 @@
 			<baseHealthScale>2.25</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<gestationPeriodDays>12</gestationPeriodDays>
 			<wildBiomes>
 				<AridShrubland>1</AridShrubland>
@@ -384,7 +384,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
 			<gestationPeriodDays>7</gestationPeriodDays>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<packAnimal>true</packAnimal>
 			<petness>0.6</petness>
 			<trainability>None</trainability>
@@ -553,7 +553,7 @@
 			<baseHealthScale>1.7</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AEXP_Leather_Wildebeest</leatherDef>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<trainability>None</trainability>
 			<packAnimal>true</packAnimal>
 			<useMeatFrom>Cow</useMeatFrom>
@@ -751,7 +751,7 @@
 			<baseHungerRate>0.28</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
 			<leatherDef>Leather_Lizard</leatherDef>
-			
+			 <soundEating>Reptile_Eat</soundEating>
 			<trainability>None</trainability>
 			<petness>0.05</petness>
 			<lifeExpectancy>120</lifeExpectancy>

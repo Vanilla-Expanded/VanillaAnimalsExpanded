@@ -76,7 +76,7 @@
 			<baseHungerRate>0.535</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Camel</leatherDef>
-			
+			<soundEating>Herbivore_Eat</soundEating>
 			<trainability>None</trainability>
 			<useMeatFrom>Dromedary</useMeatFrom>
 			<roamMtbDays>3</roamMtbDays>
@@ -239,7 +239,7 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<useMeatFrom>Cobra</useMeatFrom>
-			
+			<soundEating>Reptile_Eat</soundEating>
 			<petness>0.05</petness>
 			<manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
@@ -378,7 +378,7 @@
 			<baseHungerRate>0.10</baseHungerRate>
 			<baseHealthScale>0.4</baseHealthScale>
 			<useMeatFrom>Megaspider</useMeatFrom>
-			
+			<soundEating>Insectoid_Eat</soundEating>
 			<lifeExpectancy>10</lifeExpectancy>
 			<wildBiomes>
 				<Desert>0.4</Desert>

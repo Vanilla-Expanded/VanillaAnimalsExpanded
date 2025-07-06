@@ -84,6 +84,7 @@
 			<baseHungerRate>0.10</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
 			<lifeExpectancy>50</lifeExpectancy>
+			<soundEating>Bird_Eat</soundEating>
 			<useMeatFrom>Cassowary</useMeatFrom>
 			<manhunterOnTameFailChance>0.16</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.22</manhunterOnDamageChance>
@@ -230,6 +231,7 @@
 			<baseHungerRate>0.23</baseHungerRate>
 			<baseHealthScale>0.7</baseHealthScale>
 			<meatLabel>pinniped meat</meatLabel>
+			<soundEating>PredatorSmall_Eat</soundEating>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>AEXP_Leather_Pinniped</leatherDef>
 			<petness>0.18</petness>
@@ -367,6 +369,7 @@
 			<useMeatFrom>AEXP_Seal</useMeatFrom>
 			<leatherDef>AEXP_Leather_Pinniped</leatherDef>
 			<petness>0.05</petness>
+			<soundEating>PredatorLarge_Eat</soundEating>
 			<nuzzleMtbHours>120</nuzzleMtbHours>
 			<gestationPeriodDays>8</gestationPeriodDays>
 			<litterSizeCurve>

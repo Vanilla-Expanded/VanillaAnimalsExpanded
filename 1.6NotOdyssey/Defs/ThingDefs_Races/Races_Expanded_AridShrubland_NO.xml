@@ -69,6 +69,7 @@
 			<nuzzleMtbHours>48</nuzzleMtbHours>
 			<trainability>Advanced</trainability>
 			<lifeExpectancy>50</lifeExpectancy>
+			<soundEating>Herbivore_Eat</soundEating>
 			<manhunterOnTameFailChance>0.21</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.30</manhunterOnDamageChance>
 			<lifeStageAges>
