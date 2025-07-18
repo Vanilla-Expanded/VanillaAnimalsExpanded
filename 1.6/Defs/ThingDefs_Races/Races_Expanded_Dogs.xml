@@ -66,7 +66,25 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<gestationPeriodDays>10</gestationPeriodDays>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -103,6 +121,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Beagle</defName>
@@ -232,7 +255,25 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<gestationPeriodDays>10</gestationPeriodDays>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -269,6 +310,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Chihuahua</defName>
@@ -395,10 +441,28 @@
 			<baseHealthScale>0.5</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Dog</leatherDef>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -435,6 +499,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Corgi</defName>
@@ -561,10 +630,28 @@
 			<baseHealthScale>0.4</baseHealthScale>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Dog</leatherDef>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -601,6 +688,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_FrenchBulldog</defName>
@@ -751,11 +843,29 @@
 			<baseBodySize>1.0</baseBodySize>
 			<baseHungerRate>0.5</baseHungerRate>
 			<baseHealthScale>1.4</baseHealthScale>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Wolf</leatherDef>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
 			<litterSizeCurve>
@@ -795,6 +905,11 @@
 			<li>AnimalFighter</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_GermanShepherd</defName>
@@ -909,8 +1024,26 @@
 			<soundEating>PredatorSmall_Eat</soundEating>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
 			<litterSizeCurve>
@@ -949,6 +1082,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_GreatDane</defName>
@@ -1062,8 +1200,26 @@
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
 			<soundEating>PredatorSmall_Eat</soundEating>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
@@ -1103,6 +1259,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Poodle</defName>
@@ -1216,9 +1377,27 @@
 			<leatherDef>Leather_Dog</leatherDef>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
 			<soundEating>PredatorSmall_Eat</soundEating>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
@@ -1256,6 +1435,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Pug</defName>
@@ -1383,8 +1567,26 @@
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<soundEating>PredatorSmall_Eat</soundEating>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
 			<litterSizeCurve>
@@ -1423,6 +1625,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Rottweiler</defName>
@@ -1538,7 +1745,25 @@
 			<trainability>Intermediate</trainability>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
 			<soundEating>PredatorSmall_Eat</soundEating>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_WelshTerrier</li>
+			</canCrossBreedWith>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
@@ -1576,6 +1801,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_Shih-Tzu</defName>
@@ -1703,8 +1933,26 @@
 			<trainability>Advanced</trainability>
 			<useMeatFrom>AEXP_Beagle</useMeatFrom>
 			<soundEating>PredatorSmall_Eat</soundEating>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Beagle</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -1741,6 +1989,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_WelshTerrier</defName>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<VanillaAnimalsExpanded.RiverNeedingAnimalDef>
+	<VEF.AnimalBehaviours.RiverNeedingAnimalDef>
 		<defName>AEXP_RiverNeedingAnimals_NO</defName>
 		<riverNeedingAnimals>
 			
@@ -8,5 +8,5 @@
 			
 			
 		</riverNeedingAnimals>
-	</VanillaAnimalsExpanded.RiverNeedingAnimalDef>
+	</VEF.AnimalBehaviours.RiverNeedingAnimalDef>
 </Defs>

@@ -87,10 +87,25 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<petness>1</petness>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
+			<canCrossBreedWith>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -127,6 +142,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatAbyssinian</defName>
@@ -259,10 +279,25 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<petness>1</petness>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -299,6 +334,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatBengal</defName>
@@ -430,7 +470,22 @@
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<petness>1</petness>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
@@ -471,6 +526,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatBritishShorthair</defName>
@@ -602,7 +662,22 @@
 			<baseHealthScale>1.07</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<petness>1</petness>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
@@ -643,6 +718,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatMaineCoon</defName>
@@ -772,9 +852,24 @@
 			<baseBodySize>0.32</baseBodySize>
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<petness>1</petness>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
@@ -815,6 +910,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatMunchkin</defName>
@@ -947,10 +1047,25 @@
 			<leatherDef>Leather_Light</leatherDef>
 			<useMeatFrom>Cat</useMeatFrom>
 			<petness>1</petness>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -987,6 +1102,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatNorwegianForest</defName>
@@ -1116,9 +1236,24 @@
 			<baseBodySize>0.32</baseBodySize>
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<petness>1</petness>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
@@ -1159,6 +1294,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatPersian</defName>
@@ -1287,10 +1427,25 @@
 			<baseBodySize>0.32</baseBodySize>
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<useMeatFrom>Cat</useMeatFrom>
 			<petness>1</petness>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
@@ -1331,6 +1486,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatSiamese</defName>
@@ -1463,6 +1623,21 @@
 			<leatherDef>Leather_Light</leatherDef>
 			<useMeatFrom>Cat</useMeatFrom>
 			<petness>1</petness>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSphynx</li>
+			</canCrossBreedWith>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
@@ -1503,6 +1678,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatSomali</defName>
@@ -1635,6 +1815,21 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<petness>1</petness>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
+			<canCrossBreedWith>
+				<li>AEXP_CatAbyssinian</li>
+				<li>Cat</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+			</canCrossBreedWith>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
@@ -1675,6 +1870,11 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatSphynx</defName>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		
+		<xpath>Defs/ThingDef[defName = "Cat"]/race/canCrossBreedWith</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Cat"]/race</xpath>
+			<value>
+				<canCrossBreedWith>
+					<li>AEXP_CatAbyssinian</li>
+					<li>AEXP_CatBengal</li>
+					<li>AEXP_CatBritishShorthair</li>
+					<li>AEXP_CatMaineCoon</li>
+					<li>AEXP_CatMunchkin</li>
+					<li>AEXP_CatNorwegianForest</li>
+					<li>AEXP_CatPersian</li>
+					<li>AEXP_CatSiamese</li>
+					<li>AEXP_CatSomali</li>
+					<li>AEXP_CatSphynx</li>
+				</canCrossBreedWith>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Cat"]/race/canCrossBreedWith</xpath>
+			<value>
+				<li>AEXP_CatAbyssinian</li>
+				<li>AEXP_CatBengal</li>
+				<li>AEXP_CatBritishShorthair</li>
+				<li>AEXP_CatMaineCoon</li>
+				<li>AEXP_CatMunchkin</li>
+				<li>AEXP_CatNorwegianForest</li>
+				<li>AEXP_CatPersian</li>
+				<li>AEXP_CatSiamese</li>
+				<li>AEXP_CatSomali</li>
+				<li>AEXP_CatSphynx</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+		
+		<xpath>Defs/ThingDef[defName = "Cat"]</xpath>
+		 <value>
+            <li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+        </value>
+	</Operation>
+</Patch>
+

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "YorkshireTerrier"]/race/canCrossBreedWith</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "YorkshireTerrier"]/race</xpath>
+			<value>
+				<canCrossBreedWith>
+					<li>AEXP_Beagle</li>
+					<li>LabradorRetriever</li>
+					<li>Husky</li>
+					<li>AEXP_Chihuahua</li>
+					<li>AEXP_Corgi</li>
+					<li>AEXP_FrenchBulldog</li>
+					<li>AEXP_GermanShepherd</li>
+					<li>AEXP_GreatDane</li>
+					<li>AEXP_Poodle</li>
+					<li>AEXP_Pug</li>
+					<li>AEXP_Rottweiler</li>
+					<li>AEXP_Shih-Tzu</li>
+					<li>AEXP_WelshTerrier</li>
+				</canCrossBreedWith>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "YorkshireTerrier"]/race/canCrossBreedWith</xpath>
+			<value>
+				<li>AEXP_Beagle</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName = "YorkshireTerrier"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "LabradorRetriever"]/race/canCrossBreedWith</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "LabradorRetriever"]/race</xpath>
+			<value>
+				<canCrossBreedWith>
+					<li>AEXP_Beagle</li>
+					<li>YorkshireTerrier</li>
+					<li>Husky</li>
+					<li>AEXP_Chihuahua</li>
+					<li>AEXP_Corgi</li>
+					<li>AEXP_FrenchBulldog</li>
+					<li>AEXP_GermanShepherd</li>
+					<li>AEXP_GreatDane</li>
+					<li>AEXP_Poodle</li>
+					<li>AEXP_Pug</li>
+					<li>AEXP_Rottweiler</li>
+					<li>AEXP_Shih-Tzu</li>
+					<li>AEXP_WelshTerrier</li>
+				</canCrossBreedWith>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "LabradorRetriever"]/race/canCrossBreedWith</xpath>
+			<value>
+				<li>AEXP_Beagle</li>
+				<li>YorkshireTerrier</li>
+				<li>Husky</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName = "LabradorRetriever"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Husky"]/race/canCrossBreedWith</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Husky"]/race</xpath>
+			<value>
+				<canCrossBreedWith>
+					<li>AEXP_Beagle</li>
+					<li>YorkshireTerrier</li>
+					<li>LabradorRetriever</li>
+					<li>AEXP_Chihuahua</li>
+					<li>AEXP_Corgi</li>
+					<li>AEXP_FrenchBulldog</li>
+					<li>AEXP_GermanShepherd</li>
+					<li>AEXP_GreatDane</li>
+					<li>AEXP_Poodle</li>
+					<li>AEXP_Pug</li>
+					<li>AEXP_Rottweiler</li>
+					<li>AEXP_Shih-Tzu</li>
+					<li>AEXP_WelshTerrier</li>
+				</canCrossBreedWith>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Husky"]/race/canCrossBreedWith</xpath>
+			<value>
+				<li>AEXP_Beagle</li>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>AEXP_Chihuahua</li>
+				<li>AEXP_Corgi</li>
+				<li>AEXP_FrenchBulldog</li>
+				<li>AEXP_GermanShepherd</li>
+				<li>AEXP_GreatDane</li>
+				<li>AEXP_Poodle</li>
+				<li>AEXP_Pug</li>
+				<li>AEXP_Rottweiler</li>
+				<li>AEXP_Shih-Tzu</li>
+				<li>AEXP_WelshTerrier</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName = "Husky"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+
