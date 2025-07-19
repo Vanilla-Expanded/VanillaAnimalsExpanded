@@ -505,7 +505,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AEXP_GilaMonster</defName>
 		<label>gila monster</label>
-		<description>A large, slow moving type of lizard found mostly in the desert, known for it's highly venomous bite which inflicts a severe toxic build-up in it's prey. Outlanders to this day believe in tales which state that this lizard is a spawn from hell, and that it's foul breath is lethal.</description>
+		<description>A large, slow moving type of lizard found mostly in the desert, known for its highly venomous bite which inflicts a severe toxic build-up in its prey. Outlanders to this day believe in tales which state that this lizard is a spawn from hell, and that its foul breath is lethal.</description>
 		<statBases>
 			<MoveSpeed>2.25</MoveSpeed>
 			<MarketValue>200</MarketValue>
