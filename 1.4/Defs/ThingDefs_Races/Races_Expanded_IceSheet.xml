@@ -133,17 +133,17 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Penguin/PenguinBaby</texPath>
+					<texPath>Things/Pawn/Animal/Penguin/PenguinBaby</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Penguin/Dessicated_Penguin</texPath>
+					<texPath>Things/Pawn/Animal/Penguin/Dessicated_Penguin</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Penguin/Penguin</texPath>
+					<texPath>Things/Pawn/Animal/Penguin/Penguin</texPath>
 					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -151,13 +151,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Penguin/Dessicated_Penguin</texPath>
+					<texPath>Things/Pawn/Animal/Penguin/Dessicated_Penguin</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Penguin/Penguin</texPath>
+					<texPath>Things/Pawn/Animal/Penguin/Penguin</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -165,7 +165,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Penguin/Dessicated_Penguin</texPath>
+					<texPath>Things/Pawn/Animal/Penguin/Dessicated_Penguin</texPath>
 					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -288,29 +288,29 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Seal/Seal</texPath>
+					<texPath>Things/Pawn/Animal/Seal/Seal</texPath>
 					<drawSize>1</drawSize>
 					<color>(112,82,65)</color>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Seal/Dessicated_Seal</texPath>
+					<texPath>Things/Pawn/Animal/Seal/Dessicated_Seal</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Seal/Seal</texPath>
+					<texPath>Things/Pawn/Animal/Seal/Seal</texPath>
 					<drawSize>1.25</drawSize>
 					<color>(112,82,65)</color>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Seal/Dessicated_Seal</texPath>
+					<texPath>Things/Pawn/Animal/Seal/Dessicated_Seal</texPath>
 					<drawSize>1.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Seal/Seal</texPath>
+					<texPath>Things/Pawn/Animal/Seal/Seal</texPath>
 					<drawSize>1.5</drawSize>
 					<color>(112,82,65)</color>
 					<shadowData>
@@ -319,7 +319,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Seal/Dessicated_Seal</texPath>
+					<texPath>Things/Pawn/Animal/Seal/Dessicated_Seal</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -425,27 +425,27 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Walrus/Walrus</texPath>
+					<texPath>Things/Pawn/Animal/Walrus/Walrus</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Walrus/Dessicated_Walrus</texPath>
+					<texPath>Things/Pawn/Animal/Walrus/Dessicated_Walrus</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Walrus/Walrus</texPath>
+					<texPath>Things/Pawn/Animal/Walrus/Walrus</texPath>
 					<drawSize>1.55</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Walrus/Dessicated_Walrus</texPath>
+					<texPath>Things/Pawn/Animal/Walrus/Dessicated_Walrus</texPath>
 					<drawSize>1.55</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Walrus/Walrus</texPath>
+					<texPath>Things/Pawn/Animal/Walrus/Walrus</texPath>
 					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.35, 0.4, 0.3)</volume>
@@ -453,7 +453,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Walrus/Dessicated_Walrus</texPath>
+					<texPath>Things/Pawn/Animal/Walrus/Dessicated_Walrus</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 				<butcherBodyPart>

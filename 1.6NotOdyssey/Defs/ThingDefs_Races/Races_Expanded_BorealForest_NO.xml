@@ -123,27 +123,27 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Otter/Otter</texPath>
+					<texPath>Things/Pawn/Animal/Otter/Otter</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Otter/Dessicated_Otter</texPath>
+					<texPath>Things/Pawn/Animal/Otter/Dessicated_Otter</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Otter/Otter</texPath>
+					<texPath>Things/Pawn/Animal/Otter/Otter</texPath>
 					<drawSize>1.25</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Otter/Dessicated_Otter</texPath>
+					<texPath>Things/Pawn/Animal/Otter/Dessicated_Otter</texPath>
 					<drawSize>1.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Otter/Otter</texPath>
+					<texPath>Things/Pawn/Animal/Otter/Otter</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.35, 0.4, 0.3)</volume>
@@ -151,7 +151,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Otter/Dessicated_Otter</texPath>
+					<texPath>Things/Pawn/Animal/Otter/Dessicated_Otter</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

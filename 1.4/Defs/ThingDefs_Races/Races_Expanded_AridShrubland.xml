@@ -424,7 +424,7 @@
 			<li>
 				<label>hippopotamus calf</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Hippopotamus/Hippopotamus</texPath>
+					<texPath>Things/Pawn/Animal/Hippo/Hippo</texPath>
 					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -432,13 +432,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Hippopotamus/Dessicated_Hippopotamus</texPath>
+					<texPath>Things/Pawn/Animal/Hippo/Dessicated_Hippo</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Hippopotamus/Hippopotamus</texPath>
+					<texPath>Things/Pawn/Animal/Hippo/Hippo</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -446,13 +446,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Hippopotamus/Dessicated_Hippopotamus</texPath>
+					<texPath>Things/Pawn/Animal/Hippo/Dessicated_Hippo</texPath>
 					<drawSize>2.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Hippopotamus/Hippopotamus</texPath>
+					<texPath>Things/Pawn/Animal/Hippo/Hippo</texPath>
 					<drawSize>3.0</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -460,7 +460,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Hippopotamus/Dessicated_Hippopotamus</texPath>
+					<texPath>Things/Pawn/Animal/Hippo/Dessicated_Hippo</texPath>
 					<drawSize>3.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

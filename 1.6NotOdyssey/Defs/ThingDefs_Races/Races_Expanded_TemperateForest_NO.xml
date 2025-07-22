@@ -116,12 +116,12 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Badger/Badger</texPath>
+					<texPath>Things/Pawn/Animal/Badger/Badger</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Badger/Dessicated_Badger</texPath>
+					<texPath>Things/Pawn/Animal/Badger/Dessicated_Badger</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 
@@ -129,7 +129,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Badger/Badger</texPath>
+					<texPath>Things/Pawn/Animal/Badger/Badger</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.2, 0.2, 0.2)</volume>
@@ -138,14 +138,14 @@
 				</bodyGraphicData>
 
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Badger/Dessicated_Badger</texPath>
+					<texPath>Things/Pawn/Animal/Badger/Dessicated_Badger</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Badger/Badger</texPath>
+					<texPath>Things/Pawn/Animal/Badger/Badger</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -154,7 +154,7 @@
 				</bodyGraphicData>
 
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Badger/Dessicated_Badger</texPath>
+					<texPath>Things/Pawn/Animal/Badger/Dessicated_Badger</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 

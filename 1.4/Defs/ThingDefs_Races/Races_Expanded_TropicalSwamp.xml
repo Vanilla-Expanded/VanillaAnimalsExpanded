@@ -94,27 +94,27 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Alligator/Alligator</texPath>
+					<texPath>Things/Pawn/Animal/Alligator/Alligator</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Alligator/Dessicated_Alligator</texPath>
+					<texPath>Things/Pawn/Animal/Alligator/Dessicated_Alligator</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Alligator/Alligator</texPath>
+					<texPath>Things/Pawn/Animal/Alligator/Alligator</texPath>
 					<drawSize>2</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Alligator/Dessicated_Alligator</texPath>
+					<texPath>Things/Pawn/Animal/Alligator/Dessicated_Alligator</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Alligator/Alligator</texPath>
+					<texPath>Things/Pawn/Animal/Alligator/Alligator</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -122,7 +122,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_Alligator/Dessicated_Alligator</texPath>
+					<texPath>Things/Pawn/Animal/Alligator/Dessicated_Alligator</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
