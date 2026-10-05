@@ -84,6 +84,7 @@
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
@@ -273,6 +274,7 @@
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
@@ -462,6 +464,7 @@
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
@@ -651,6 +654,7 @@
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>
@@ -865,6 +869,7 @@
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
@@ -1043,6 +1048,7 @@
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
@@ -1219,6 +1225,7 @@
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
@@ -1397,6 +1404,7 @@
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
@@ -1586,6 +1594,7 @@
 				<li>AEXP_Pug</li>
 				<li>AEXP_Shih-Tzu</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
@@ -1763,6 +1772,7 @@
 				<li>AEXP_Pug</li>
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_WelshTerrier</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
@@ -1952,6 +1962,7 @@
 				<li>AEXP_Pug</li>
 				<li>AEXP_Rottweiler</li>
 				<li>AEXP_Shih-Tzu</li>
+				<li MayRequire="vanillaexpanded.ranching">VRE_Collie</li>
 			</canCrossBreedWith>
 			<litterSizeCurve>
 				<points>

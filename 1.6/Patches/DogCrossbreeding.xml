@@ -41,13 +41,16 @@
 			</value>
 		</match>
 	</Operation>
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName = "YorkshireTerrier"]</xpath>
-		<value>
-			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
-				<crossBreedKindDef>Random</crossBreedKindDef>
-			</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "YorkshireTerrier"]/modExtensions/li[@Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension"]</xpath>
+		<nomatch Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName = "YorkshireTerrier"]</xpath>
+			<value>
+				<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+					<crossBreedKindDef>Random</crossBreedKindDef>
+				</li>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName = "LabradorRetriever"]/race/canCrossBreedWith</xpath>
@@ -90,13 +93,16 @@
 			</value>
 		</match>
 	</Operation>
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName = "LabradorRetriever"]</xpath>
-		<value>
-			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
-				<crossBreedKindDef>Random</crossBreedKindDef>
-			</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "LabradorRetriever"]/modExtensions/li[@Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension"]</xpath>
+		<nomatch Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName = "LabradorRetriever"]</xpath>
+			<value>
+				<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+					<crossBreedKindDef>Random</crossBreedKindDef>
+				</li>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName = "Husky"]/race/canCrossBreedWith</xpath>
@@ -139,13 +145,16 @@
 			</value>
 		</match>
 	</Operation>
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName = "Husky"]</xpath>
-		<value>
-			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
-				<crossBreedKindDef>Random</crossBreedKindDef>
-			</li>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Husky"]/modExtensions/li[@Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension"]</xpath>
+		<nomatch Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName = "Husky"]</xpath>
+			<value>
+				<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+					<crossBreedKindDef>Random</crossBreedKindDef>
+				</li>
+			</value>
+		</nomatch>
 	</Operation>
 </Patch>
 
